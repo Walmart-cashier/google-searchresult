@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 .navbar
@@ -97,21 +98,68 @@ input {
     text-decoration: none;
 }
 .sub-navbar {
-    border: 1px solid red;
-    margin-top: 1vh;
+    margin-top: 1.3vh;
+    border-bottom: 1px solid lightgray;
 }
 .sub-navbar ul {
-    margin-left:10vw
+    margin-left:10vw;
+    padding-bottom: 1vh;
 }
 .sub-navbar ul li{
     display: inline-block;
-    padding: 1vh 1vw;
+    padding: .5vh .5vw;
+    color:#5f6368;
 }
+
 .sub-navbar ul li a{
     text-decoration: none;
     color:#5f6368;
+    font-size: .9rem;
+    padding-left: .2vw;
 }
 .sub-navbar ul li:nth-child(7){
-    padding-left:4vw;
+    padding-left:3vw;
 }
 
+.sub-navbar ul li:nth-child(1){
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+}
+
+.results {
+    border: 1px solid red;
+    min-height: 50vh;
+    width: 34vw;
+    margin-left: 10.5vw;
+    height: auto;
+}
+
+.para {
+    margin-top: 1.2vh;
+    color: #70757A;
+    font-size: .9rem;
+}
+
+.site-result1 {
+    margin-top: 1vw;
+}
+
+.site-result1 p{
+    color: #3C4043;
+    font-size:.9rem;
+}
+
+.site-result1 h3{
+    margin-top: .5vh;
+    font-weight: 500;
+    color: #1a0dab;
+    font-size: 1.3rem;
+}
+
+.site-result1 h6{
+    margin-top: .5vh;
+    color: #3C4043;
+    font-size: .9rem;
+    font-weight: normal;
+    line-height: 1.4;
+}
