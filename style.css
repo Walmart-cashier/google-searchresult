@@ -129,7 +129,7 @@ input {
 .results {
     border: 1px solid red;
     min-height: 50vh;
-    width: 34vw;
+    width: 38vw;
     margin-left: 10.5vw;
     height: auto;
 }
@@ -162,4 +162,34 @@ input {
     font-size: .9rem;
     font-weight: normal;
     line-height: 1.4;
+}
+.tab-result
+{
+    margin-top:1vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.site-result2 h3{
+    font-weight: 500;
+    color: #1a0dab;
+    font-size: 1.3rem;
+}
+
+.site-result2 h6{
+    color: #3C4043;
+    font-size: .9rem;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.site-result2 {
+    width: 40%;
+    padding-bottom: 1vw;
+    margin-left: 5%;
+}
+
+.para2{
+    color: #1a0dab;
+    font-size:.9rem;
+    margin-left: 1.8vw;
 }
