@@ -281,9 +281,9 @@ footer{
     border-top:.5px solid rgba(0,0,0,0.4);
     background-color: #f2f2f2;
     padding-left: 10vw;
-    height: 4vh;
     padding-top: 1vh;  
     margin-top: 2vh;
+    padding-bottom:2vh;
 }
 
 footer a {
@@ -292,6 +292,5 @@ footer a {
     font-size: .87rem;
     margin-top: 2vh;
     padding-right: 2vw;
-    padding-bottom: 1.8vh;
     
 }
